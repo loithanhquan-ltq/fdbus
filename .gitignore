@@ -1,0 +1,46 @@
+# Build directories
+/build/
+/build-*/
+/cmake/build/
+
+# Install/output trees
+/.dist/
+/.cache/
+
+# IDE settings
+/.vscode/
+
+# CMake artifacts (for in-source builds)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+install_manifest.txt
+
+# Generated IDL files
+idl-gen/
+*.pb.cc
+*.pb.h
+
+# Compiled objects, libraries and binaries
+*.o
+*.a
+*.so
+*.so.*
+*.d
+*.pyc
+__pycache__/
+
+# Source not needed to build the client-server example
+/Android.mk.old
+/Makefile
+/fdbus-name-server.rc
+/doc/
+/jni/
+/python/test/
+
+# Editor/OS noise
+.DS_Store
+*.swp
+*.orig
+*.rej
